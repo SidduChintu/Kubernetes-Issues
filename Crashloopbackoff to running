@@ -1,0 +1,14 @@
+#CrashLoopBackOff to Running state.
+
+When we have a pod in crashloopbackoff and we need to exec into it by bringing it into running state and check if any file is missing
+
+Go to Raancher>deployment>edit
+
+Add These into spec of the container
+
+command:
+-/bin/sleep
+-500
+
+This will make the container sleep and not get exited for next 500seconds.
+
