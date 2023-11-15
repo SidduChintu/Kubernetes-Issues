@@ -1,0 +1,4 @@
+Integration of Vault with AWS
+
+Error: unable to resolve ARN....... Unable to fetch current caller invalidClientTokenid........Status 403
+Update the Access Key and Secret Access Key IAM>Users>(Hashicorp_integrated_user)>security credentials
